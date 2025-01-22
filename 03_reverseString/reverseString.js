@@ -3,7 +3,6 @@ const reverseString = function(inputWord) {
     let wordArray = inputWord.split("");
     let reversedWordArray = wordArray.reverse();
     let reversedWord = reversedWordArray.join("");
-
     return reversedWord;
 
 };
